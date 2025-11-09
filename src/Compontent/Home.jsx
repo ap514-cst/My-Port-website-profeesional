@@ -1,7 +1,7 @@
 import "./Style.css"
 import React from "react";
 import Particles from "@tsparticles/react";
-import img from "../Compontent/img/my.png"
+import img from "../Compontent/img/My.png"
 import { initParticlesEngine } from "@tsparticles/react";
 import { loadFull } from "tsparticles";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
@@ -152,3 +152,4 @@ const Home = React.forwardRef((props, ref) => {
 });
 
 export default Home;
+
